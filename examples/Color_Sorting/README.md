@@ -13,4 +13,4 @@ ColorSorting allows you to classify objects on the basis of color. With the help
 ## Software ##
 **Arduino IDE 1.8.5**
 
-**vedio url:**https://www.facebook.com/Ufactory2013/videos/1034122856770692/
+**vedio url:** https://www.facebook.com/Ufactory2013/videos/1034122856770692/
