@@ -2,7 +2,7 @@
 
 The Controler control uArm to move and control gripper to catch somethings.
 
-#How to use the demo
+# How to use the demo
 1. Download this project **joystick_with_uArm.ino**. 
    Learn how to download single file from GitHub [https://github.com/uArm-Developer/SwiftProForArduino/wiki/How-to-download-single-file-from-GitHub](https://github.com/uArm-Developer/SwiftProForArduino/wiki/How-to-download-single-file-from-GitHub "url")
 
