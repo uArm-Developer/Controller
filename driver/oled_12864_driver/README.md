@@ -16,9 +16,10 @@
 
 3. Install U8glib
 
+![](https://github.com/uArm-Developer/Controller/blob/master/driver/oled_12864_driver/image/install_lib.jpg) 
+
 ![](https://github.com/uArm-Developer/Controller/blob/master/driver/oled_12864_driver/image/u8glib.jpg)
 
-![](https://github.com/uArm-Developer/Controller/blob/master/driver/oled_12864_driver/image/install_lib.jpg) 
 
 4. Upload the firmware to the Control
 
