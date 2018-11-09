@@ -1,5 +1,4 @@
 #include <U8glib.h>
-#include <FlexiTimer2.h>
 #include <stdio.h>
 /************************* LCD io *************************/
 #define LCD_CS          42
@@ -51,7 +50,7 @@ void setup() {
 
   uarm_param.x = 200.0;
   uarm_param.y = 0.0;
-  uarm_param.z = analogRead(VOLUME) * 300.0 / 1023 - 100;
+  uarm_param.z = analogRead(VOLUME) * 300.0 / 1023 - 100;     // get the high
   if( uarm_param.z > 170 ){
     uarm_param.z = 170;
   }else if( uarm_param.z < -100 ){
@@ -60,18 +59,20 @@ void setup() {
   uarm_param.interval = 10;
   uarm_param.speed = 50;
 
-  dtostrf(uarm_param.x,3,1,x_str);
+  dtostrf(uarm_param.x,3,1,x_str);                      // float value to str
   dtostrf(uarm_param.y,3,1,y_str);
   dtostrf(uarm_param.z,3,1,z_str);
 
-  sprintf(cmd, "G1 X%s Y%s Z%s F%d\r\n", x_str, y_str, z_str, uarm_param.speed);
-  Serial2.write(cmd); 
+  sprintf(cmd, "G1 X%s Y%s Z%s F%d\r\n", x_str, y_str, z_str, uarm_param.speed);  // fill the cmd
+  Serial2.write(cmd);                                                            // set the start position
+  delay(2000);
+  Serial2.write("G2202 N3 V180 F30");                                           // set the end-effecter start angle
 }
 
 void loop() {
   // put your main code here, to run repeatedly:
     move();
-    if( digitalRead(BUTTON_C) == LOW ){ 
+    if( digitalRead(BUTTON_C) == LOW ){       // chage the speed
       delay(50);
       if( digitalRead(BUTTON_C) == LOW ){
         while(digitalRead(BUTTON_C) == LOW);
@@ -102,7 +103,7 @@ void move(void){
     dtostrf(uarm_param.z,3,1,z_str);
   }
   
-  uarm_param.z = analogRead(VOLUME) * 300.0 / 1023 - 100;
+  uarm_param.z = analogRead(VOLUME) * 300.0 / 1023 - 100;     // get the z aixs value
   if( uarm_param.z > 170 ){
     uarm_param.z = 170;
   }else if( uarm_param.z < -100 ){
@@ -110,7 +111,7 @@ void move(void){
   }
   if( abs(high-uarm_param.z) > 1 ){
     dtostrf(uarm_param.z,3,1,z_str);
-    sprintf(cmd, "G1 Z%s F%d\r\n", z_str, uarm_param.speed); 
+    sprintf(cmd, "G1 Z%s F%d\r\n", z_str, uarm_param.speed);  //set the z value
     Serial2.write(cmd);
     delay(1);
     high = uarm_param.z;
@@ -119,28 +120,28 @@ void move(void){
   if( digitalRead(JOY_UP) == LOW ){   
     uarm_param.x += uarm_param.interval;
     dtostrf(uarm_param.x,3,1,x_str);
-    sprintf(cmd, "G1 X%s F%d\r\n", x_str, uarm_param.speed); 
+    sprintf(cmd, "G1 X%s F%d\r\n", x_str, uarm_param.speed);  //set the x value
     Serial2.write(cmd);
     delay(1);
   }
   if( digitalRead(JOY_DOWN) == LOW ){     
     uarm_param.x -= uarm_param.interval;
     dtostrf(uarm_param.x,3,1,x_str);
-    sprintf(cmd, "G1 X%s F%d\r\n", x_str, uarm_param.speed);
+    sprintf(cmd, "G1 X%s F%d\r\n", x_str, uarm_param.speed);  //set the x value
     Serial2.write(cmd); 
     delay(1);
   }
   if( digitalRead(JOY_LEFT) == LOW ){     
     uarm_param.y += uarm_param.interval;
     dtostrf(uarm_param.y,3,1,y_str);
-    sprintf(cmd, "G1 Y%s F%d\r\n", y_str, uarm_param.speed); 
+    sprintf(cmd, "G1 Y%s F%d\r\n", y_str, uarm_param.speed); //set the y value
     Serial2.write(cmd);
     delay(1);
   }
   if( digitalRead(JOY_RIGHT) == LOW ){    
     uarm_param.y -= uarm_param.interval;
     dtostrf(uarm_param.y,3,1,y_str);
-    sprintf(cmd, "G1 Y%s F%d\r\n", y_str, uarm_param.speed); 
+    sprintf(cmd, "G1 Y%s F%d\r\n", y_str, uarm_param.speed); //set the y value
     Serial2.write(cmd); 
     delay(1);
   }
@@ -151,17 +152,17 @@ void move(void){
       static bool pump_sw = false;
       if( pump_sw ){
         pump_sw = false;
-        Serial2.write("M2231 V0\r\n");
+        Serial2.write("M2232 V0\r\n");                    // close the gripper
         delay(1);
       }else{
         pump_sw = true;
-        Serial2.write("M2231 V1\r\n");
+        Serial2.write("M2232 V1\r\n");                   // open the gripper
         delay(1);
       }
     }
   }
   
-  u8g.firstPage();
+  u8g.firstPage();                                        // oled display
   do{   
     u8g.setFont(u8g_font_unifont);
     u8g.drawStr(20, 15, "UF Control ");

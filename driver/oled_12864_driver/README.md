@@ -7,7 +7,7 @@
 - LCD MOSI <---> D53
 
 #How to use the driver
-1. Download this project **button_driver.ino**. 
+1. Download this project **oled_12864_driver.ino**. 
    Learn how to download single file from GitHub [https://github.com/uArm-Developer/SwiftProForArduino/wiki/How-to-download-single-file-from-GitHub](https://github.com/uArm-Developer/SwiftProForArduino/wiki/How-to-download-single-file-from-GitHub "url")
 
 2. Config the Arduino IDE

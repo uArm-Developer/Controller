@@ -1,7 +1,7 @@
 # Joystick
 
-- Joystick up 		<---> D33
-- Joystick down 	<---> D41
+- Joystick up       <---> D33
+- Joystick down     <---> D41
 - Joystick left     <---> D32
 - Joystick right   	<---> D37
 - Joystick cneter	<---> D40
