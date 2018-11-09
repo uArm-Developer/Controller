@@ -5,6 +5,7 @@
 #define LCD_CD          44
 #define LCD_SCK         8
 #define LCD_MOSI        53
+
 U8GLIB_SH1106_128X64 u8g(LCD_SCK, LCD_MOSI, LCD_CS, LCD_CD);  // SW SPI Com: SCK = 52, MOSI = 51, CS = 42, CD = 44
 
 void setup() {
