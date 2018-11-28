@@ -3,8 +3,8 @@
 - LCD CS <---> D42
 - LCD RES <---> D43
 - LCD CD <---> D44
-- LCD SCK <---> D8
-- LCD MOSI <---> D53
+- LCD SCK <---> D30
+- LCD MOSI <---> D35
 
 #How to use the driver
 1. Download this project **oled_12864_driver.ino**. 
