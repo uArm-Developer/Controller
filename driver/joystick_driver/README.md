@@ -4,17 +4,17 @@
 - Joystick down     <---> D41
 - Joystick left     <---> D32
 - Joystick right   	<---> D37
-- Joystick cneter	<---> D40
+- Joystick cnetre	<---> D40
 
 #How to use the driver
 1. Download this project **joystick_driver.ino**. 
    Learn how to download single file from GitHub [https://github.com/uArm-Developer/SwiftProForArduino/wiki/How-to-download-single-file-from-GitHub](https://github.com/uArm-Developer/SwiftProForArduino/wiki/How-to-download-single-file-from-GitHub "url")
 
-2. Config the Arduino IDE
+2. Configure the Arduino IDE
 
 ![](https://github.com/uArm-Developer/Controller/blob/master/driver/joystick_driver/image/tool_set.jpg)
 
-3. Upload the firmware to the Control
+3. Upload the firmware to the Controller
 
 ![](https://github.com/uArm-Developer/Controller/blob/master/driver/joystick_driver/image/upload.jpg)
 

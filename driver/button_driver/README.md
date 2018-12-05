@@ -9,11 +9,11 @@
 1. Download this project **button_driver.ino**. 
    Learn how to download single file from GitHub [https://github.com/uArm-Developer/SwiftProForArduino/wiki/How-to-download-single-file-from-GitHub](https://github.com/uArm-Developer/SwiftProForArduino/wiki/How-to-download-single-file-from-GitHub "url")
 
-2. Config the Arduino IDE
+2. Configure the Arduino IDE
 
 ![](https://github.com/uArm-Developer/Controller/blob/master/driver/button_driver/image/tool_set.jpg)
 
-3. Upload the firmware to the Control
+3. Upload the firmware to the uArm Controller
 
 ![](https://github.com/uArm-Developer/Controller/blob/master/driver/button_driver/image/upload.jpg)
 
