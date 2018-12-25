@@ -6,8 +6,11 @@
 - Joystick right   	<---> D37
 - Joystick cnetre	<---> D40
 
+#How to install hardware
+
+
 #How to use the driver
-1. Download this project **joystick_driver.ino**. 
+1. Download this project **joystick_driver.ino**
    Learn how to download single file from GitHub [https://github.com/uArm-Developer/SwiftProForArduino/wiki/How-to-download-single-file-from-GitHub](https://github.com/uArm-Developer/SwiftProForArduino/wiki/How-to-download-single-file-from-GitHub "url")
 
 2. Configure the Arduino IDE
