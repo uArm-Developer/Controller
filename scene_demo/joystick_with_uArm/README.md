@@ -2,6 +2,15 @@
 
 The Controler control uArm to move and control gripper to catch somethings.
 
+# How to connect the uArm
+1、Use TYPE-C wire connect the uArmController
+
+2、Use TYPE-C wire connect the uArm
+
+3、Power on the uArm
+
+4、Power on the uArmController and press the reset button
+
 # How to use the demo
 1. Download this project **joystick_with_uArm.ino**. 
    Learn how to download single file from GitHub [https://github.com/uArm-Developer/SwiftProForArduino/wiki/How-to-download-single-file-from-GitHub](https://github.com/uArm-Developer/SwiftProForArduino/wiki/How-to-download-single-file-from-GitHub "url")
