@@ -1,11 +1,11 @@
 # Button
 ![](https://github.com/uArm-Developer/Controller/blob/master/driver/button_driver/image/board_shape.jpg)
-- Button A <---> D47
-- Button B <---> D49
-- Button C <---> D12
-- Button D <---> D11
+- Button A ---------------- D47
+- Button B ---------------- D49
+- Button C ---------------- D12
+- Button D ---------------- D11
 
-#How to use the driver
+# How to use the driver
 1. Download this project **button_driver.ino**. 
    Learn how to download single file from GitHub [https://github.com/uArm-Developer/SwiftProForArduino/wiki/How-to-download-single-file-from-GitHub](https://github.com/uArm-Developer/SwiftProForArduino/wiki/How-to-download-single-file-from-GitHub "url")
 
@@ -24,4 +24,5 @@
 5. Press button A,B,C,D to check the log of terminal printing.
 
 ![](https://github.com/uArm-Developer/Controller/blob/master/driver/button_driver/image/serial_monitor.jpg)
- 
+
+ **Note：When uArm Controller is connected with a computer, please press the "Reset" button.**
