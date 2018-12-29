@@ -2,6 +2,9 @@
 
 The uArmController controls uArm Swift Pro to move and control gripper to catch somethings.
 
+# Caution
+**The firmware of uArm Swift Pro must upgrade to V4.3.0 or later.**
+
 # How to connect the uArm
 1.Connect the uArm Controller and uArm Swift Pro with Type-C.
 (The program use the UART2-TTL interface)
@@ -40,3 +43,4 @@ The uArmController controls uArm Swift Pro to move and control gripper to catch 
 
 
 Video URL：https://www.youtube.com/watch?v=gX0F5BUDXgE 
+ 
