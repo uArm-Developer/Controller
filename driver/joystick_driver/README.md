@@ -1,10 +1,10 @@
 # Joystick
 ![](https://github.com/uArm-Developer/Controller/blob/master/driver/joystick_driver/image/board_shape.jpg)
-- Joystick up &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;    ------------- D33
-- Joystick down &nbsp; &nbsp;  ------------- D41
-- Joystick left  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   ------------- D32
-- Joystick right  &nbsp;&nbsp;&nbsp;&nbsp; 	------------- D37
-- Joystick cnetre &nbsp;	------------- D40
+- Joystick up&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;------------- D33
+- Joystick down&nbsp; &nbsp;------------- D41
+- Joystick left&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    ------------- D32
+- Joystick right&nbsp;&nbsp;&nbsp;&nbsp;    ------------- D37
+- Joystick centre&nbsp;    ------------- D40
 
 # How to use the driver
 
