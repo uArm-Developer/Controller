@@ -1,6 +1,6 @@
 # Joystick control uArm
 
-The Controler control uArm to move and control gripper to catch somethings.
+The uArmController control uArm Swift Pro to move and control gripper to catch somethings.
 
 # How to connect the uArm
 1.Connect the uArm Controller and uArm Swift Pro with Type-C.
