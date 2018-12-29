@@ -2,10 +2,10 @@
 
 ![](https://github.com/uArm-Developer/Controller/blob/master/driver/oled_12864_driver/image/board_shape.jpg)
 
-- LCD CS &nbsp;&nbsp;&nbsp;---------------- D42
-- LCD RES &nbsp;---------------- D43
-- LCD CD &nbsp;&nbsp;&nbsp;---------------- D44
-- LCD SCK &nbsp;---------------- D30
+- LCD CS &nbsp;&nbsp;&nbsp;&nbsp;---------------- D42
+- LCD RES &nbsp;&nbsp;---------------- D43
+- LCD CD &nbsp;&nbsp;&nbsp;&nbsp;---------------- D44
+- LCD SCK &nbsp;&nbsp;---------------- D30
 - LCD MOSI ---------------- D35
 
 # How to use the driver
