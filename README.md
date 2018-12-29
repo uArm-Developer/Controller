@@ -1,4 +1,5 @@
 # Overview
+
 ----------
 ![](https://github.com/uArm-Developer/Controller/blob/master/image/Poster.jpg)
 
@@ -14,6 +15,7 @@
 # Getting Started
 
 ----------
+- [uArmController User Mnaual](doc/)
 
 ## Driver Demo
 - [button driver](driver/button_driver)
