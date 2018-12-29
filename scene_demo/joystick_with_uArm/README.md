@@ -1,4 +1,4 @@
-# joystick control uArm
+# Joystick control uArm
 
 The Controler control uArm to move and control gripper to catch somethings.
 
