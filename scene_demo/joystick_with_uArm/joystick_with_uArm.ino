@@ -83,7 +83,7 @@ void setup() {
   sprintf(cmd, "G1 X%s Y%s Z%s F%d\r\n", x_str, y_str, z_str, uarm_param.speed);  // fill the cmd
   Serial2.write(cmd);                                                            // set the start position
   delay(500);
-  Serial2.write("G2202 N3 V180 F30");                                           // set the end-effecter start angle
+  //Serial2.write("G2202 N3 V180 F30");                                           // set the end-effecter start angle
 }
 
 void loop() {
