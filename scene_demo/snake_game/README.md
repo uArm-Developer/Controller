@@ -3,7 +3,8 @@
 &nbsp;&nbsp;&nbsp;&nbsp;![](https://github.com/uArm-Developer/Controller/blob/master/scene_demo/snake_game/image/Poster.jpg)
  
 ## How to upload firmware
-###1.Using Arduino IDE
+
+### 1.Using Arduino IDE
 1. Download this project [**snake_game.ino**](src/). 
    Learn how to download single file from GitHub [https://github.com/uArm-Developer/SwiftProForArduino/wiki/How-to-download-single-file-from-GitHub](https://github.com/uArm-Developer/SwiftProForArduino/wiki/How-to-download-single-file-from-GitHub "url")
 
@@ -14,7 +15,7 @@
 3. Press the "Upload" button to upload ﬁrmware.
 
 &nbsp;&nbsp;&nbsp;&nbsp;![](https://github.com/uArm-Developer/Controller/blob/master/scene_demo/snake_game/image/upload.jpg)
-###2.Using XLoadr
+### 2.Using XLoadr
 * Download the [hex](hex/)
 * Download and extract [XLoader](http://xloader.russemotto.com/XLoader.zip).
 * Open XLoader and select your uArm's COM port from the drop down menu on the lower left.
