@@ -72,10 +72,8 @@ void uarm_slider_pick()
   {
     if (finish_flag == true && lastmode != NOTHING_MODE)
     {
-      Serial.println("seconde");
       switch (lastmode)
       {
-        Serial.println("secondresete");
         case YELLOW_MODE: set_steps(21500, 30, NULL, true );   Serial.println("yellow");
           break;
         case RED_MODE:    set_steps(31500, 30, NULL, true );   Serial.println("red");

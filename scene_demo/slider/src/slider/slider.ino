@@ -19,20 +19,12 @@ void setup() {
   system_s = slider;
   i = 0;
   mode = NOTHING_MODE;
-      set_speed(1, 50, NULL, false);
-
 }
 void loop() {
-//  Serial.println(digitalRead(25));
-//  first_page();  
-//  belt_resetflag();
-//  if (system_s == slider)
-//  {
-//    uarm_slider_pick();
-//  }
-    //set_speed(1, 200, NULL, false);
-
-//  get_color();
-//  Serial2.write("G0 X180 Y0 Z160 F100\n");
-
+  first_page();  
+  belt_resetflag();
+  if (system_s == slider)
+  {
+    uarm_slider_pick();
+  }
 }
