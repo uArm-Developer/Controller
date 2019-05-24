@@ -5,7 +5,7 @@ extern enum pick_mode_e mode;
 bool work_state = false;
 bool detect_switch_flag = false;
 extern Adafruit_TCS34725 tcs;
-Ultrasonic ultrasonic(23);//超声波传感器
+Ultrasonic ultrasonic(23);
 extern int i;
 void setup() {
   Serial.begin(115200);
