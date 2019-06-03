@@ -66,7 +66,7 @@ void setup() {
   
   uarm_param.x = 200.0;
   uarm_param.y = 0.0;
-  uarm_param.z = analogRead(VOLUME) * 300.0 / 1023 - 100;     // get the high
+  uarm_param.z = 100;     // get the high
   if( uarm_param.z > 170 ){
     uarm_param.z = 170;
   }else if( uarm_param.z < -100 ){
