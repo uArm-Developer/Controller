@@ -1,5 +1,5 @@
 # Vision scratch cube
-#caution
+# caution
 The firmware of uArm Swift Pro must  to be  [UArmSwiftPro_2ndUART.hex](http://download.ufactory.cc/developer/swift/uArm_Swift_Pro_2nd_uart_Firmware_20180724.zip).
 # Software
 1.[Arduino IDE](www.arduino.cc)
