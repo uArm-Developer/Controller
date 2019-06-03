@@ -13,3 +13,9 @@ https://bit.ly/2Ea18Mq
 https://bit.ly/2vHtSaP
 
 # Connect
+![](https://github.com/uArm-Developer/Controller/blob/master/scene_demo/vision_scratch%20cube/img/connect.jpg)
+
+# Getting Started
+The firmware of uArm Controller has been written before leaving the factory.
+
+Finish the work with connecting  cable and give power.
