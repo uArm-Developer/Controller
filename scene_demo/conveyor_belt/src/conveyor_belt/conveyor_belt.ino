@@ -23,6 +23,7 @@ void setup() {
   system_s = conver_belt;
   i = 0;
   mode = NOTHING_MODE;
+  delay(1000);
 
 }
 void loop() {

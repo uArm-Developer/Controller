@@ -13,7 +13,7 @@ void belt_init()
 }
 void belt_move()
 {
-  set_speed(-1, 500, NULL, false);
+  set_speed(-1, 200, NULL, false);
 }
 void belt_stop()
 { 
