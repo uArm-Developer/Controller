@@ -21,9 +21,9 @@ int color_range(uint16_t r, uint16_t b)
 }
 void slider_rgb_r()
 {
-  R_RED     =  140;
-  R_GREEN   =   45;
-  R_BLUE    =   37;
+  R_RED     =  177;
+  R_GREEN   =   59;
+  R_BLUE    =   53;
 }
 void slider_rgb_y()
 {
@@ -33,9 +33,9 @@ void slider_rgb_y()
 }
 void slider_rgb_g()
 {
-  G_RED    =   151;
-  G_GREEN  =   218;
-  G_BLUE   =   89;
+  G_RED    =   52;
+  G_GREEN  =   96;
+  G_BLUE   =   57;
 }
 void slider_rgb()
 {

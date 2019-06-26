@@ -11,7 +11,7 @@ void covert_pick_up()
 
   Serial2.write("G0 X70.1313 Y-228.1760 Z100 F100\n"); delay(1005);
 
-  Serial2.write("G1 X70.1313 Y-228.1760 Z54 F40\n"); delay(2000);
+  Serial2.write("G1 X70.1313 Y-228.1760 Z30 F40\n"); delay(2000);
   Serial2.write("M2231 V1\n"); delay(100);
   Serial2.write("G1 X70.1313 Y-229.1760 Z100 F10\n"); delay(2000);
   Serial2.write("G2202 N3 V108 F100\n"); delay(100);
@@ -74,6 +74,7 @@ void conver_work()
     work_state = true;
     covert_pick_up();
     belt_move();
+    i++;
     detect_switch_flag = true;
   }
   if (work_state == true)
@@ -89,7 +90,6 @@ void conver_work()
       static bool detect_flag = false;
       if ( ultrasonic.MeasureInCentimeters() < 10 ) {
         if ( !detect_flag ) {
-          i++;
           detect_switch_flag = false;
           set_speed(-1, -1, NULL, true);
           set_speed(-1, 170, NULL, true);

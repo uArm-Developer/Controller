@@ -1,5 +1,5 @@
 #include "main.h"
-#define SOFTWARE_VERSION "V1.0\n"
+#define SOFTWARE_VERSION "V1.2\n"
 extern int i;
 extern enum control_systerm system_s;
 extern enum pick_mode_e mode;
@@ -10,7 +10,7 @@ void setup() {
   Serial.println(SOFTWARE_VERSION);
   Serial2.begin(115200);
   pinMode(25, INPUT_PULLUP); //limit switch
-//  Serial2.write("G0 X180 Y0 Z160 F100\n");
+  Serial2.write("G0 X180 Y0 Z160 F100\n");
   oled_init();
   slider_rgb();//r g b value
   led_init();

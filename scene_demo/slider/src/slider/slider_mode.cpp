@@ -9,12 +9,12 @@ Ultrasonic ultrasonic(23);//Ultrasonic module
 void slide_pick_up()
 {
   Serial2.write("G0 X250 Y0 Z160 F100\n");
-  delay(500);
+  delay(1000);
+  Serial2.write("G0 X250 Y100 Z100 F100\n");
+  delay(1000);
   Serial2.write("G0 X250 Y100 Z100 F100\n");
   delay(100);
-  Serial2.write("G0 X250 Y100 Z100 F100\n");
-  delay(100);
-  Serial2.write("G0 X250 Y100 Z-25 F100\n");
+  Serial2.write("G1 X250 Y100 Z-25 F40\n");
   delay(2000);
   Serial2.write("M2231 V1\n");
   delay(1000);
@@ -27,7 +27,7 @@ void slide_pick_down()
     case RED_MODE:
       Serial2.write("G0 X200 Y-80 Z100 F100\n");
       delay(100);
-      Serial2.write("G0 X200 Y-80 Z-45 F100\n");
+      Serial2.write("G0 X200 Y-80 Z-35 F100\n");
       delay(100);
       delay(1000);
       Serial2.write("M2231 V0\n");
@@ -40,7 +40,7 @@ void slide_pick_down()
     case GREEN_MODE:
       Serial2.write("G0 X200 Y0 Z100 F100\n");
       delay(100);
-      Serial2.write("G0 X200 Y0 Z-45 F100\n");
+      Serial2.write("G0 X200 Y0 Z-35 F100\n");
       delay(100);
       delay(1000);
       Serial2.write("M2231 V0\n");
@@ -53,7 +53,7 @@ void slide_pick_down()
     case YELLOW_MODE:
       Serial2.write("G0 X200 Y80 Z100 F100\n");
       delay(100);
-      Serial2.write("G0 X200 Y80 Z-45 F100\n");
+      Serial2.write("G0 X200 Y80 Z-35 F100\n");
       delay(100);
       delay(1000);
       Serial2.write("M2231 V0\n");

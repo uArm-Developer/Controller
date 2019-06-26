@@ -30,9 +30,9 @@ void convert_rgb_y()
 }
 void convert_rgb_g()
 {
-  G_RED    =   157;
-  G_GREEN  =   233;
-  G_BLUE   =   108;
+  G_RED    =   56;
+  G_GREEN  =   100;
+  G_BLUE   =   55;
 }
 void convert_rgb()
 {

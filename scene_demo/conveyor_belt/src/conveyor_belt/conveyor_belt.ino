@@ -1,5 +1,5 @@
 #include "main.h"
-#define SOFTWARE_VERSION "V1.0\n"
+#define SOFTWARE_VERSION "V1.2\n"
 extern enum control_systerm system_s;
 extern enum pick_mode_e mode;
 bool work_state = false;

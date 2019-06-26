@@ -13,7 +13,7 @@ void first_page()
   u8g.firstPage();
   do {
     u8g.setFont(u8g_font_cu12);
-    u8g.drawStr(15, 20, "conver_belt");
+    u8g.drawStr(12, 20, "conveyor_belt");
     u8g.drawStr(30, 40, "count:");
     u8g.setPrintPos(75, 40);
     u8g.print(i);
