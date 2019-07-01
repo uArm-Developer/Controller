@@ -27,7 +27,7 @@ Click [this](https://github.com/uArm-Developer/SwiftProForArduino/wiki/How-to-do
 
 The other way to download the code:
 
-1.Download the [hex](https://github.com/uArm-Developer/Controller/blob/master/scene_demo/conveyor_belt/hex/conveyor_belt.ino.hex).
+1.Download the [hex](https://github.com/uArm-Developer/Controller/blob/master/scene_demo/conveyor_belt/hex).
 
 2.Download and extract [XLoader](http://xloader.russemotto.com/XLoader.zip).
 

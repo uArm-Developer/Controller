@@ -27,7 +27,7 @@ Click [this](https://github.com/uArm-Developer/SwiftProForArduino/wiki/How-to-do
 
 The other way to download the code:
 
-1.Download the [hex](https://github.com/uArm-Developer/Controller/blob/master/scene_demo/slider/hex/slider.ino.hex).
+1.Download the [hex](https://github.com/uArm-Developer/Controller/blob/master/scene_demo/slider/hex).
 
 2.Download and extract [XLoader](http://xloader.russemotto.com/XLoader.zip).
 
