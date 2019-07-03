@@ -20,8 +20,8 @@ Click [this](https://github.com/uArm-Developer/SwiftProForArduino/wiki/How-to-do
 2.Conﬁgure Arduino IDE，select the board as "Arduino/Genuino Mega or Mega 2560", Select the COM that allocated randomly by your computer, please refer to the following picture:
  
  ![](https://github.com/uArm-Developer/Controller/blob/master/scene_demo/conveyor_belt/img/download(1).png)
- 
-3.Press the "Upload" button to upload ﬁrmware.
+
+3..Press the "Upload" button to upload ﬁrmware.
 
 ![](https://github.com/uArm-Developer/Controller/blob/master/scene_demo/conveyor_belt/img/download(2).png)
 
