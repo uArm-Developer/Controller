@@ -1,6 +1,5 @@
 #ifndef _BELT_H
 #define _BELT_H
-#include <FlexiTimer2.h>
 #include <Arduino.h>
 #define STEP_PWM              7
 #define MS3                   A12
