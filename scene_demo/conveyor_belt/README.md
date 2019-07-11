@@ -12,22 +12,9 @@
  #  Download
  You can download the code by two ways.
  
-One of ways to download the code:
- 
-1.Download the project  [conveyor_belt](https://github.com/uArm-Developer/Controller/tree/master/scene_demo/conveyor_belt). 
-Click [this](https://github.com/uArm-Developer/SwiftProForArduino/wiki/How-to-download-single-file-from-GitHub) to learn how to download single directory from GitHub.
+***One of ways to download the code***:
 
-2.Conﬁgure Arduino IDE，select the board as "Arduino/Genuino Mega or Mega 2560", Select the COM that allocated randomly by your computer, please refer to the following picture:
- 
- ![](https://github.com/uArm-Developer/Controller/blob/master/scene_demo/conveyor_belt/img/download(1).png)
-
-3..Press the "Upload" button to upload ﬁrmware.
-
-![](https://github.com/uArm-Developer/Controller/blob/master/scene_demo/conveyor_belt/img/download(2).png)
-
-The other way to download the code:
-
-1.Download the [hex](https://github.com/uArm-Developer/Controller/blob/master/scene_demo/conveyor_belt/hex).
+1.Download the [hex](https://github.com/uArm-Developer/Controller/blob/master/scene_demo/conveyor_belt/hex)，Click [this](https://github.com/uArm-Developer/SwiftProForArduino/wiki/How-to-download-single-file-from-GitHub) to learn how to download single file from GitHub..
 
 2.Download and extract [XLoader](http://xloader.russemotto.com/XLoader.zip).
 
@@ -41,6 +28,20 @@ The other way to download the code:
 
 7.Once your hex file is selected, click "Upload" The upload process generally takes about 3 seconds to finish. Once completed, a message will appear in the bottom left corner of XLoader telling you how many bytes were uploaded. If there was an error, it would show instead of the total bytes uploaded. Steps should be similar and may be done through the command prompt.
 
+***The other way to download the code***:
+1.Download the project  [conveyor_belt](https://github.com/uArm-Developer/Controller/tree/master/scene_demo/conveyor_belt). 
+Click [this](https://github.com/uArm-Developer/SwiftProForArduino/wiki/How-to-download-single-file-from-GitHub) to learn how to download single directory from GitHub.
+
+2.Conﬁgure Arduino IDE，select the board as "Arduino/Genuino Mega or Mega 2560", Select the COM that allocated randomly by your computer, please refer to the following picture:
+ 
+ ![](https://github.com/uArm-Developer/Controller/blob/master/scene_demo/conveyor_belt/img/download(1).png)
+
+3.Press the "Upload" button to upload ﬁrmware.
+
+![](https://github.com/uArm-Developer/Controller/blob/master/scene_demo/conveyor_belt/img/download(2).png)
+
+
+
 # Connect
 1.Sensor cable connection
 
@@ -50,8 +51,6 @@ The other way to download the code:
  
  ![](https://github.com/uArm-Developer/Controller/blob/master/scene_demo/conveyor_belt/img/sensor%20cable%20connection.jpg)
  
-
-
 # Getting Started
 The firmware of uArm Controller has been written before leaving the factory.
 
