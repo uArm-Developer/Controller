@@ -9,10 +9,12 @@
 
 03.[uArmPro_V4.X.X.hex](https://github.com/uArm-Developer/SwiftProForArduino/tree/Version_V4.0/hex) for uArm
 
+04.[XLoader](http://xloader.russemotto.com/XLoader.zip)
+
  #  Download
- You can download the code by two ways.
+**You can download the code by two ways**.
  
-***One of ways to download the code***:
+***One of ways to download the code***(This way can not change the code ):
 
 1.Download the [hex](https://github.com/uArm-Developer/Controller/blob/master/scene_demo/conveyor_belt/hex)，Click [this](https://github.com/uArm-Developer/SwiftProForArduino/wiki/How-to-download-single-file-from-GitHub) to learn how to download single file from GitHub..
 
@@ -28,7 +30,10 @@
 
 7.Once your hex file is selected, click "Upload" The upload process generally takes about 3 seconds to finish. Once completed, a message will appear in the bottom left corner of XLoader telling you how many bytes were uploaded. If there was an error, it would show instead of the total bytes uploaded. Steps should be similar and may be done through the command prompt.
 
-***The other way to download the code***:
+![](https://github.com/uArm-Developer/Controller/blob/master/scene_demo/conveyor_belt/img/xloder.png)
+
+***The other way to download the code***(If you want to change the code in the firmware, you need to download the firmware in the following way:):
+
 1.Download the project  [conveyor_belt](https://github.com/uArm-Developer/Controller/tree/master/scene_demo/conveyor_belt). 
 Click [this](https://github.com/uArm-Developer/SwiftProForArduino/wiki/How-to-download-single-file-from-GitHub) to learn how to download single directory from GitHub.
 
@@ -36,11 +41,17 @@ Click [this](https://github.com/uArm-Developer/SwiftProForArduino/wiki/How-to-do
  
  ![](https://github.com/uArm-Developer/Controller/blob/master/scene_demo/conveyor_belt/img/download(1).png)
 
-3.Press the "Upload" button to upload ﬁrmware.
+3.Open the "Manage Libraries".
+
+![](https://github.com/uArm-Developer/Controller/blob/master/scene_demo/conveyor_belt/img/library(1).png)
+
+4.Install u8glib.
+
+![](https://github.com/uArm-Developer/Controller/blob/master/scene_demo/conveyor_belt/img/library(2).png)
+
+5.Press the "Upload" button to upload ﬁrmware.
 
 ![](https://github.com/uArm-Developer/Controller/blob/master/scene_demo/conveyor_belt/img/download(2).png)
-
-
 
 # Connect
 1.Sensor cable connection
@@ -57,3 +68,5 @@ The firmware of uArm Controller has been written before leaving the factory.
 Finish the work with connecting  cable and give power.
 
 refer to [document](https://github.com/uArm-Developer/Controller/tree/master/scene_demo/conveyor_belt/doc)
+
+Video Url:https://youtu.be/xjtnRsCymzc
