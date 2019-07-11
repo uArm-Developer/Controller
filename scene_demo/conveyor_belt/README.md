@@ -32,7 +32,8 @@
 
 ![](https://github.com/uArm-Developer/Controller/blob/master/scene_demo/conveyor_belt/img/xloder.png)
 
-***The other way to download the code***(If you want to change the code in the firmware, you need to download the firmware in the following way:):
+***The other way to download the code***:
+(If you want to change the code in the firmware, you need to download the firmware in the following way:)
 
 1.Download the project  [conveyor_belt](https://github.com/uArm-Developer/Controller/tree/master/scene_demo/conveyor_belt). 
 Click [this](https://github.com/uArm-Developer/SwiftProForArduino/wiki/How-to-download-single-file-from-GitHub) to learn how to download single directory from GitHub.
