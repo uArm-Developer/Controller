@@ -12,7 +12,7 @@ The firmware of uArm Swift Pro must  to be  [UArmSwiftPro_2ndUART.hex](http://do
 
 5.[UArmSwiftPro_2ndUART.hex](http://download.ufactory.cc/developer/swift/uArm_Swift_Pro_2nd_uart_Firmware_20180724.zip) for uArm
 
-#Download
+# Download
 
 **You can download the code by two ways**.
  
@@ -57,6 +57,7 @@ Click [this](https://github.com/uArm-Developer/SwiftProForArduino/wiki/How-to-do
 ![](https://github.com/uArm-Developer/Controller/blob/master/scene_demo/vision_scratch%20cube/img/download(2).png)
 
 # Connect
+
 ![](https://github.com/uArm-Developer/Controller/blob/master/scene_demo/vision_scratch%20cube/img/connect.jpg)
 
 # Getting Started
