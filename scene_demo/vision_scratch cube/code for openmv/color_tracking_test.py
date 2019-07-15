@@ -39,7 +39,7 @@ red_led.off()
 object_x_old = 0
 object_y_old = 0
 
-code = 4
+code = 2
 buf = "00"
 cube_flag=0
 # Only blobs that with more pixels than "pixel_threshold" and more area than "area_threshold" are
@@ -57,7 +57,7 @@ while(True):
 
     img = sensor.snapshot()
     if uart.any()>0 :
-        buf=ua.rt.read()
+        buf=uart.read()
         print("yes")
         print (buf[0])
         if buf[0]==ord('y') :
@@ -113,8 +113,8 @@ while(True):
                     red_led.off()
                     green_led.on()
                     #clear the flag
-                    buf = "00"
 
+            buf = "00"
             object_x_old = int(blob.cx())
             object_y_old = int(blob.cy())
 

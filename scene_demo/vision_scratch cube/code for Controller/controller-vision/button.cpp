@@ -3,7 +3,7 @@ enum pick_mode mode = red_mode;
 extern char  color_sel;
 bool work_mode_flag;
 int mode_change = 1;
-extern char buf[20], flag;
+extern char buf[1024], flag;
 extern int num;
 extern unsigned long times;
 
@@ -21,13 +21,9 @@ void button_mode()
     delay(10);                              // <! delay
     if (digitalRead(BUTTON_A) == LOW) {
       while (digitalRead(BUTTON_A) == LOW);
-      Serial.print("button b\r\n");
+      Serial.print("button a\r\n");
       color_sel = 1;
       work_mode_flag = true;
-//          num = 0;
-//    times = millis();
-//    //flag = 0;
-//    buf[0]='a';
     }
   }
   if (digitalRead(BUTTON_B) == LOW) {
@@ -37,10 +33,6 @@ void button_mode()
       Serial.print("button b\r\n");
       color_sel = 2;
       work_mode_flag = true;
-//    num = 0;
-//    times = millis();
-//   // flag = 0;
-//    buf[0]='a';
     }
   }
   if (digitalRead(BUTTON_C) == LOW) {
@@ -50,16 +42,14 @@ void button_mode()
       Serial.print("button c\r\n");
       color_sel = 0;
       work_mode_flag = true;
-//    num = 0;
-//    times = millis();
-//   // flag = 0;
-//    buf[0]='a';
     }
   }
   if (digitalRead(BUTTON_D) == LOW) {
     delay(10);                              // <! delay
     if (digitalRead(BUTTON_D) == LOW) {
       while (digitalRead(BUTTON_D) == LOW);
+            Serial.print("buttond\r\n");
+
       work_mode_flag = false;
       mode_change++;
     }
@@ -68,10 +58,8 @@ void button_mode()
 bool mode_choose()
 {
   button_mode();
-
   if (work_mode_flag == true)
   {
-
     return true;
   }
   if (work_mode_flag == false)
@@ -82,9 +70,7 @@ bool mode_choose()
     }
     else if (mode_change % 2 == 0)
     {
-
       joystick_work();
-
     }
     mode_choose();
 

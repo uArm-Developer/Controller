@@ -23,9 +23,11 @@ void second_page()
 {
   u8g.firstPage();
   do {
-    u8g.setFont(u8g_font_cu12);
+    u8g.setFont(u8g_font_tpss);
     u8g.drawStr(25, 20, "vision start");
-    u8g.drawStr(10, 40, "waiting for cube");
+    u8g.drawStr(10, 40, "waitting for cube");
+        u8g.drawStr(10, 60, "buttonD:choose cube");
+
   } while (u8g.nextPage());
 }
 void third_page()
@@ -55,13 +57,11 @@ void fifth_page()
     u8g.drawStr(10, 15, "   handing cube  ");
     u8g.drawStr(30, 30, "   x:");
     u8g.setPrintPos(75, 30);
-
     u8g.print(x_uarm);
     u8g.drawStr(30, 45, "   y:");
     u8g.setPrintPos(75, 45);
-
     u8g.print(y_uarm);
-            u8g.drawStr(0, 60, "buttonD:choose cube");
+    u8g.drawStr(0, 60, "buttonD:choose cube");
 
   } while (u8g.nextPage());
 }
@@ -72,7 +72,7 @@ void sixth_page()//connect  but no cube
     u8g.setFont(u8g_font_tpss);
     u8g.drawStr(10, 20, "error: cube is   ");
     u8g.drawStr(10, 40, "not exits ");
-        u8g.drawStr(0, 60, "buttonD:choose cube");
+    u8g.drawStr(0, 60, "buttonD:choose cube");
   } while (u8g.nextPage());
 }
 void  mode_page()
@@ -84,7 +84,6 @@ void  mode_page()
     u8g.drawStr(0, 30, "buttonB:greencube");
     u8g.drawStr(0, 45, "buttonC:yellowcube");
     u8g.drawStr(0, 60, "buttonD:offestmode");
-
   } while (u8g.nextPage());
 }
 void offest_page()
@@ -95,14 +94,20 @@ void offest_page()
     u8g.drawStr(10, 15, "   offest mode ");
     u8g.drawStr(0, 30, "  x_offest:");
     u8g.setPrintPos(95, 30);
-
     u8g.print(x_offest);
     u8g.drawStr(0, 45, "  y_offest:");
     u8g.setPrintPos(95, 45);
-
     u8g.print(y_offest);
-        u8g.drawStr(10, 60, "buttonD:choose cube");
-
+    u8g.drawStr(10, 60, "buttonD:choose cube");
   } while (u8g.nextPage());
 
+}
+void waiting_page()
+{
+    u8g.firstPage();
+  do {
+    u8g.setFont(u8g_font_cu12);
+
+    u8g.drawStr(40, 40, "waitting ");
+  } while (u8g.nextPage());
 }

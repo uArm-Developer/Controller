@@ -13,4 +13,10 @@ enum pick_mode
   green_mode,
   yellow_mode,
 };
+enum commuincation{
+  beready,
+  bedoing,
+  bedata,
+  befailed
+};
 #endif 

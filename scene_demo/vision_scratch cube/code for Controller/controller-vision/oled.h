@@ -27,4 +27,8 @@ void sixth_page();
 void  mode_page();
 
 void offest_page();
+
+void waiting_page();
+
+
 #endif 

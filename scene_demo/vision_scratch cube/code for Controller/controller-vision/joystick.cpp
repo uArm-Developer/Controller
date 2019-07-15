@@ -41,7 +41,6 @@ void joystick_work()
       Serial.print("joystick right\r\n");
       y_offest += 5;
     }
-
   }
   if (digitalRead(JOY_CENTRE) == LOW) {
     delay(10);                              // <!
