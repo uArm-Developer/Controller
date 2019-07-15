@@ -31,29 +31,29 @@ The firmware of uArm Swift Pro must  to be  [UArmSwiftPro_2ndUART.hex](http://do
 
 7.Once your hex file is selected, click "Upload" The upload process generally takes about 3 seconds to finish. Once completed, a message will appear in the bottom left corner of XLoader telling you how many bytes were uploaded. If there was an error, it would show instead of the total bytes uploaded. Steps should be similar and may be done through the command prompt.
 
-![](https://github.com/uArm-Developer/Controller/tree/master/scene_demo/vision_scratch%20cube/img/xloder.png)
+![](https://github.com/uArm-Developer/Controller/blob/master/scene_demo/vision_scratch%20cube/img/xloder.png)
 
 ***The other way to download the code***:
 (If you want to change the code in the firmware, you need to download the firmware in the following way)
 
-1.Download the project  [conveyor_belt](https://github.com/uArm-Developer/Controller/tree/master/scene_demo/conveyor_belt). 
+1.Download the project  [vision_scratch cube](https://github.com/uArm-Developer/Controller/tree/master/scene_demo/vision_scratch%20cube). 
 Click [this](https://github.com/uArm-Developer/SwiftProForArduino/wiki/How-to-download-single-file-from-GitHub) to learn how to download single directory from GitHub.
 
 2.Conﬁgure Arduino IDE，select the board as "Arduino/Genuino Mega or Mega 2560", Select the COM that allocated randomly by your computer, please refer to the following picture:
  
- ![](https://github.com/uArm-Developer/Controller/tree/master/scene_demo/vision_scratch%20cube/img/download(1).png)
+ ![](https://github.com/uArm-Developer/Controller/blob/master/scene_demo/vision_scratch%20cube/img/download(1).png)
 
 3.Open the "Manage Libraries".
 
-![](https://github.com/uArm-Developer/Controller/tree/master/scene_demo/vision_scratch%20cube/img/library(1).png)
+![](https://github.com/uArm-Developer/Controller/blob/master/scene_demo/vision_scratch%20cube/img/library(1).png)
 
 4.Install u8glib.
 
-![](https://github.com/uArm-Developer/Controller/tree/master/scene_demo/vision_scratch%20cube/img/library(2).png)
+![](https://github.com/uArm-Developer/Controller/blob/master/scene_demo/vision_scratch%20cube/img/library(2).png)
 
 5.Press the "Upload" button to upload ﬁrmware.
 
-![](https://github.com/uArm-Developer/Controller/tree/master/scene_demo/vision_scratch%20cube/img/download(2).png)
+![](https://github.com/uArm-Developer/Controller/blob/master/scene_demo/vision_scratch%20cube/img/download(2).png)
 
 # Connect
 ![](https://github.com/uArm-Developer/Controller/blob/master/scene_demo/vision_scratch%20cube/img/connect.jpg)
