@@ -1,5 +1,5 @@
 #include "main.h"
-#define SOFTWARE_VERSION "V1.2\n"
+#define SOFTWARE_VERSION "V1.2.2\n"
 extern int i;
 extern enum control_systerm system_s;
 extern enum pick_mode_e mode;
@@ -9,6 +9,7 @@ void setup() {
   Serial.begin(115200);
   Serial.println(SOFTWARE_VERSION);
   Serial2.begin(115200);
+  Serial2.write("M2231 V0\n");
   pinMode(25, INPUT_PULLUP); //limit switch
   Serial2.write("G0 X180 Y0 Z160 F100\n");
   oled_init();
